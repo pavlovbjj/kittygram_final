@@ -22,9 +22,9 @@ services:
   frontend:
     image: pavlovdabjj/kittygram_frontend
     env_file: .env
-    command: cp -r /app/build/. /frontend_static/
+    command: cp -r /app/build/. /staticfiles/
     volumes:
-      - static_volume:/frontend_static
+      - static_volume:/staticfiles
   gateway:
     image: pavlovdabjj/kittygram_gateway
     env_file: .env
