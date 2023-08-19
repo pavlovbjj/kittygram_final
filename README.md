@@ -9,8 +9,8 @@
 В корне репозитория создайте файл tests.yml со следующим содержимым:
 ```yaml
 repo_owner: ваш_логин_на_гитхабе
-kittygram_domain: полная ссылка (https://доменное_имя) на ваш проект Kittygram
-taski_domain: полная ссылка (https://доменное_имя) на ваш проект Taski
+kittygram_domain: полная ссылка (https://kittygrampavlov.hopto.org/) на ваш проект Kittygram
+taski_domain: полная ссылка (https://pavlovdjango.hopto.org/) на ваш проект Taski
 dockerhub_username: ваш_логин_на_докерхабе
 ```
 
