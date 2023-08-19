@@ -25,10 +25,12 @@ services:
     command: cp -r /app/build/. /staticfiles/
     volumes:
     - static_volume:/staticfiles
+    depends_on:
+      - db
   gateway:
     build: ./nginx/
     ports:
-      - '8080:80'
+      - '9000:80'
     volumes:
       - static_volume:/static
       - media_volume:/media
