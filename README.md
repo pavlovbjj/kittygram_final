@@ -9,8 +9,8 @@
 В корне репозитория создайте файл tests.yml со следующим содержимым:
 ```yaml
 repo_owner: ваш_логин_на_гитхабе
-kittygram_domain: полная ссылка (https://kittygrampavlov.hopto.org/) на ваш проект Kittygram
-taski_domain: полная ссылка (https://pavlovdjango.hopto.org/) на ваш проект Taski
+kittygram_domain: полная ссылка (https://доменное_имя/) на ваш проект Kittygram
+taski_domain: полная ссылка (https://доменное_имя/) на ваш проект Taski
 dockerhub_username: ваш_логин_на_докерхабе
 ```
 
@@ -24,3 +24,15 @@ dockerhub_username: ваш_логин_на_докерхабе
 - Проект Kittygram доступен по доменному имени, указанному в `tests.yml`.
 - Пуш в ветку main запускает тестирование и деплой Kittygram, а после успешного деплоя вам приходит сообщение в телеграм.
 - В корне проекта есть файл `kittygram_workflow.yml`.
+## Описание используемых технологий
+ - Python 3.9
+ - Django==3.2.3
+ - djangorestframework==3.12.4
+ - Nginx
+ - Gunicorn
+ - Node.js
+ - PostgreSQL
+ - Docker
+ - CI/CD
+## Автор:
+Павлов Дмитрий - [GitHub](https://github.com/pavlovbjj)
