@@ -8,7 +8,6 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'None'),
 
 DEBUG = os.getenv('DEBUG', 'false').lower() == 'true'
 
-#ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 ALLOWED_HOSTS = ['51.250.99.17', '127.0.0.1', 'localhost', 'kittygrampavlov.hopto.org']
 
 INSTALLED_APPS = [
