@@ -1,10 +1,6 @@
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -12,7 +8,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'None'),
 
 DEBUG = os.getenv('DEBUG', 'false').lower() == 'true'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
+#ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
+ALLOWED_HOSTS = ['51.250.99.17', '127.0.0.1', 'localhost', 'kittygrampavlov.hopto.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
