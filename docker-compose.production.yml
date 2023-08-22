@@ -14,15 +14,13 @@ services:
   backend:
     image: pavlovdabjj/kittygram_backend
     env_file: .env
-    depends_on:
-      - db
     volumes:
       - static:/backend_static/
       - media:/app/media/
   frontend:
     image: pavlovdabjj/kittygram_frontend
     env_file: .env
-    command: cp -r /app/build/. /staticfiles/
+    command: cp -r /app/build/. /frontend_static/
     volumes:
     - static:/frontend_static/
   gateway:
