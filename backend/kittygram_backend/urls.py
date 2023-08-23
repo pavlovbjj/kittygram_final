@@ -1,14 +1,8 @@
-from cats.views import AchievementViewSet
-from cats.views import CatViewSet
-
+from cats.views import AchievementViewSet, CatViewSet
 from django.conf import settings
 from django.conf.urls.static import static
-
 from django.contrib import admin
-
-from django.urls import include
-from django.urls import path
-
+from django.urls import include, path
 from rest_framework import routers
 
 router = routers.DefaultRouter()
