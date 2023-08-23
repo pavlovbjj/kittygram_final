@@ -151,9 +151,9 @@ Cоциальная сеть для обмена фотографиями люб
 ```
 
 # Описание используемых технологий
- - Python 3.9
- - Django==3.2.3
- - djangorestframework==3.12.4
+ - Python
+ - Django
+ - djangorestframework
  - Nginx
  - Gunicorn
  - Node.js
