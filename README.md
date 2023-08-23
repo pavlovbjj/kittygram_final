@@ -123,21 +123,28 @@ Cоциальная сеть для обмена фотографиями люб
         DEBUG
         ALLOWED_HOSTS
 
-    Для переменной POSTGRES_USER необходимо задать имя пользователя для базы данных PostgreSQL. Пример: POSTGRES_USER=kittygram_user
+    Для переменной POSTGRES_USER необходимо задать имя пользователя для базы
+    данных PostgreSQL. Пример: POSTGRES_USER=kittygram_user
 
-    Для переменной POSTGRES_PASSWORD необходимо задать пароль для базы данных PostgreSQL. Пример: POSTGRES_PASSWORD=kittygram_password
+    Для переменной POSTGRES_PASSWORD необходимо задать пароль для базы
+    данных PostgreSQL. Пример: POSTGRES_PASSWORD=kittygram_password
 
-    Для переменной POSTGRES_DB необходимо задать название базы данных PostgreSQL. Пример: POSTGRES_DB=kittygram
+    Для переменной POSTGRES_DB необходимо задать название базы
+    данных PostgreSQL. Пример: POSTGRES_DB=kittygram
 
-    Для переменной DB_HOST необходимо задать адрес, по которому Django будет соединяться с базой данных PostgreSQL. Пример: DB_HOST=db
+    Для переменной DB_HOST необходимо задать адрес, по которому Django будет
+    соединяться с базойданных PostgreSQL. Пример: DB_HOST=db
 
-    Для переменной DB_PORT необходимо задать порт, по которому Django будет соединяться с базой данных PostgreSQL. DB_PORT=5432
+    Для переменной DB_PORT необходимо задать порт, по которому Django будет
+    соединяться с базой данных PostgreSQL. DB_PORT=5432
 
-    В переменную SECRET_KEY необходимо ввести ваш секретный код в виде: SECRET_KEY = '<ваш_ключ>'
+    В переменную SECRET_KEY необходимо ввести ваш секретный код в виде:
+    SECRET_KEY = '<ваш_ключ>'
 
     В переменную DEBUG нужно присвоить False: DEBUG = False
 
-    В переменную ALLOWED_HOSTS добавить локальные адреса, а также доменное имя или внешний IP (если есть):
+    В переменную ALLOWED_HOSTS добавить локальные адреса, а также
+    доменное имя или внешний IP (если есть):
 
     ALLOWED_HOSTS = xxx.xxx.xxx.xxx,127.0.0.1,localhost,ваш_домен
     Вместо xxx.xxx.xxx.xxx укажите IP сервера, а вместо <ваш_домен> – доменное имя.
